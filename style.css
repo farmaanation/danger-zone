@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #205E61;
+  color: #8BF5FA;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.downdown {
+  justify-content: center;
+  align-items: center;
+  margin-inline: 44%;
+  text-align: center;
+
+}
+
+.description {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ui-level {
+  font-size: 4rem;
+  padding-top: 2rem;
+}
+
+.ui-message {
+  font-size: 1.5rem;
+  justify-content: center;
+  display: flex;
+}
+
+.level-two {
+  display: none;
+}
+
+.next-button {
+  padding: 1rem 3rem;
+  background: #8BF5FA;
+  color: black;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+.spooky-picture {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
